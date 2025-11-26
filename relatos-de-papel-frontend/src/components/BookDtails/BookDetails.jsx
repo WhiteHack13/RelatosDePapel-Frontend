@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import booksData from "../../data/books.json";
-import { useCart } from "../../hooks/useCart";
+import { useCart } from "../../utilities/CartContext";
 import "./BookDetails.css";
 const BookDetails = () => {
   const { id } = useParams();

@@ -64,8 +64,12 @@
     margin-top: 10px;
   }
   
-  .redirect-text a {
-    color: #007bff;
-    text-decoration: none;
+  .error-message {
+    color: #d56e6e;
+    margin-bottom: 10px;
+    border: #d56e6e 1px solid;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(45deg, #654c4ce0, transparent);
+    border-radius: 7px;
   }
-  
